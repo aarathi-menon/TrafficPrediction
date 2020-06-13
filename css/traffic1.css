@@ -155,7 +155,11 @@ input, select, textarea {
 			}
 
 		}
-	
+
+						.divalign {
+							text-align: center;
+						}
+
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
