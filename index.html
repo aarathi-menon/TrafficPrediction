@@ -60,16 +60,16 @@
 				<!-- Two -->
 					<section id="two" class="wrapper style1 fade-up">
 						<div class="inner">
-						<script type="text/javascript">
-							function unhide(){
-								var strtext = 'HIGH';
-								document.getElementById("p1").innerhtml = strtext;
-							}
-							</script>
 						<h2>Prediction</h2><br><br>
 						<ul class="actions">
-							<li><a class="button"onclick="unhide()">PREDICTION</a></li><br>
-							<p id="p1"></p>
+							<li><button id="myBtn">Try it</button>
+								<p id="demo"></p>
+								<script>
+									document.getElementById("myBtn").onclick = displayDate;
+									function displayDate() {
+ 										 document.getElementById("demo").innerHTML = 'HIGH';
+                                    }
+                                </script>
 						</ul>	
 						</div>
 				    </section>
