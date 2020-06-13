@@ -11,6 +11,12 @@ html
 	scroll-behavior: smooth;
 }
 
+body
+{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg,rgba(2,0,36,1)0%,rgba(58,58,131,1)35%,rgba(0,212,255,1)100%);
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3845,7 +3851,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #505055;
+							background-color: #505050;
 						}
 
 		}
