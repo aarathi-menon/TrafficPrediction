@@ -44,9 +44,7 @@ body {
 ol, ul {
 	list-style: none;
 }
-p{
-	white-space: pre;
-}
+
 blockquote, q {
 	quotes: none;
 }
