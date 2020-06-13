@@ -13,9 +13,12 @@ html
 
 body
 {
-	background: rgb(2,0,36);
-	background: linear-gradient(90deg,rgba(2,0,36,1)0%,rgba(58,58,131,1)35%,rgba(0,212,255,1)100%);
-}
+background-image:
+    radial-gradient(
+      circle,
+      yellow,
+      #f06d06
+    );
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3855,6 +3858,9 @@ input, select, textarea {
 						}
 
 		}
+		.gradient{
+  					background-image: radial-gradient(circle,yellow,#f06d06);
+				 }
 
 		@media screen and (max-width: 736px) {
 
