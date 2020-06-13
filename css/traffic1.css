@@ -156,10 +156,11 @@ input, select, textarea {
 
 		}
 
-						.divalign {
-							text-align: center;
-						}
-
+						
+#demo{
+	margin-left: 55px;
+	margin-top: 10px;
+}
 	a {
 		-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
