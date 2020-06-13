@@ -3859,7 +3859,7 @@ input, select, textarea {
 
 		}
 		.gradient{
-  					background-image: radial-gradient(circle,yellow,#f06d06);
+  					background-image: radial-gradient(circle,blue,#505050);
 				 }
 
 		@media screen and (max-width: 736px) {
