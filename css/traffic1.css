@@ -10,6 +10,10 @@ html
 {
 	scroll-behavior: smooth;
 }
+body
+{
+	background-color: #312450;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
