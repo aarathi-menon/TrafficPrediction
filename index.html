@@ -65,16 +65,22 @@
 						<ul class="actions">
 							<a class='button'>PREDICTION</a><br>
 
+<p id="demo"></p>
+
 <script>
-var today = new Date()
+document.getElementById("myBtn").onclick = displayDate;
+
+function displayDate() {
+  var today = new Date()
 var curHr = today.getHours()
 
 if (curHr < 10) {
-  console.log('HIGH')
+  document.getElementById("demo").innerHTML = 'HIGH';
 } else if (curHr < 13) {
-  console.log('MEDIUM')
+  document.getElementById("demo").innerHTML = 'MEDIUM';
 } else {
-  console.log('LOW')
+  document.getElementById("demo").innerHTML ='LOW';
+}
 }
 </script>
 						</ul>	
