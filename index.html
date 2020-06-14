@@ -63,16 +63,18 @@
 						<div class="inner">
 						<h2>Prediction</h2><br><br>
 						<ul class="actions">
-							<button id="myBtn">PREDICTION</button><br>
-							
-<p id="demo"></p><br>
+							<a class='button'>PREDICTION</a><br>
 
 <script>
-document.getElementById("myBtn").onclick = displayDate;
+var today = new Date()
+var curHr = today.getHours()
 
-function displayDate() {
-
-  document.getElementById("demo").innerHTML = 'MEDIUM';
+if (curHr < 10) {
+  console.log('HIGH')
+} else if (curHr < 13) {
+  console.log('MEDIUM')
+} else {
+  console.log('LOW')
 }
 </script>
 						</ul>	
