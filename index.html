@@ -74,7 +74,7 @@ function displayDate() {
 var curHr = today.getHours()
 
 if (curHr < 10) {
-  document.getElementById("demo").innerHTML = 'HIGH  ' + Date();
+  document.getElementById("demo").innerHTML = 'HIGH' + '&nbsp' + Date();
 } else if (curHr < 13) {
   document.getElementById("demo").innerHTML = 'MEDIUM  ' + Date();
 } else {
