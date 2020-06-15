@@ -69,17 +69,16 @@
 
 <script>
 document.getElementById("myBtn").onclick = displayDate;
-document.getElementById("demo").innerHTML=Date();
 function displayDate() {
   var today = new Date()
 var curHr = today.getHours()
 
 if (curHr < 10) {
-  document.getElementById("demo").innerHTML = 'HIGH';
+  document.getElementById("demo").innerHTML = 'HIGH' + Date();
 } else if (curHr < 13) {
-  document.getElementById("demo").innerHTML = 'MEDIUM';
+  document.getElementById("demo").innerHTML = 'MEDIUM' + Date();
 } else {
-  document.getElementById("demo").innerHTML ='LOW';
+  document.getElementById("demo").innerHTML ='LOW' + Date();
 }
 }
 </script>
